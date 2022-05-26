@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/componentes.css">
+  <title>Test</title>
+</head>
+
+<body>
+  <header> 
+
+    <h1 id="titulo">Cuestionario Test e-solution</h1>
+
+  </header>
+
+  <div class="content">
+    <form class="formulario" id="datosFormulario" name="formularioContacto" >
+
+      <h2>Formulario de contacto</h2>
+
+      <label>Nombre:<input id="nombreFormContacto" type="text" name="nombre" /></label>
+      <br>
+      <br>
+      <label>Apellidos:<input id="apellidosFormContacto" type="text" name="apellidos" /></label>
+      <br>
+      <br>
+      <label>Domicilio:<input id="domicilioFormContacto" type="text" name="domicilio" /></label>
+      <br>
+      <br>
+      <label>Nacimiento:<input id="nacimientoFormContacto" type="date" name="nacimiento" /></label>
+      <br>
+      <br>
+      <fieldset id="sexo">
+      <legend>Sexo</legend>
+      <label><INPUT id="varon" type="radio" name="sexo" value="Varón"> Varón</label>
+      <label><INPUT id="mujer" type="radio" name="sexo" value="Mujer"> Mujer</label>
+      <label><INPUT id="otro" type="radio" name="sexo" value="Otro"> Otro</label>
+      </fieldset>
+      <br>
+      <label>Elija contraseña:<input id="contrasenia" type="password" name="contrasenia"></label>
+      <br>
+      <h5 class="pregunta">¿Cuales son sus pasatiempos?</h5>
+      <br>
+      <textarea id="pasatiempos" name="comment" rows=5 cols=40 placeholder="Respuesta..."></textarea>
+      <br>
+      <h5 class="pregunta">¿Cómo está conformada su familia?</h5>
+      <br>
+      <textarea id="familia" name="comment" rows=5 cols=40 placeholder="Respuesta..."></textarea>
+      <br>
+      <h5 class="pregunta">¿Cómo se define como persona?</h5>
+      <br>
+      <textarea id="persona" name="comment" rows=5 cols=40 placeholder="Respuesta..."></textarea>
+      <br>
+      <h5 class="pregunta">¿Cuál considera usted que es un trabajo ideal?</h5>
+      <br>
+      <textarea id="trabajo" name="comment" rows=5 cols=40 placeholder="Respuesta..."></textarea>
+      <br>
+      <button id="recopilaDatos" type="button">Enviar</button>
+
+    </form> 
+
+  </div> 
+<!-- funciona -->
+  <!-- <form >
+    <input type="text" name="nomest" id="nomest"
+    placeholder="ponga su nombre" size="35">
+    <button id="datos" type="button">Capturar</button>
+  </form> -->
+
+ 
+
+<script src="index.js"></script>
+</body>
+
+</html>
